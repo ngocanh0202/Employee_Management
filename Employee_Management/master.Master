@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="Employee_Management.master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/master.css" rel ="stylesheet"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="banner">
+                <asp:Button CssClass="h1" ID="Button4" runat="server" Text="EMLPOYEE MANAGEMENT" />
+            </div>
+            <div class="active">
+                <div class="function-button">
+                    <div style="height: 49px; border-bottom: 3px solid;">
+                        <p id="Function">
+                            Function
+                        </p>
+                    </div>
+                    <div class="function">
+                        <div class="button">
+                            <asp:Button ID="Button1" runat="server" Text="The total earnings" Width="200px" Height="35px" Font-Bold="true" />
+                        </div>
+                        <div class="button">
+                            <asp:Button ID="Button2" runat="server" Text="Total number of vacation days" Width="200px" Height="35px" Font-Bold="true" />
+                        </div>
+                        <div class="button">
+                            <asp:Button class="aa" ID="Button3" runat="server" Text="Average benefits paid" Width="200px" Height="35px" Font-Bold="true" />
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div class="inform">
+                    <div style="margin-left: 10px;">
+                        <asp:ImageButton ID="ImageButton1" runat="server" AlternateText="" ImageUrl="~/img/mess.png" />
+                    </div>
+                    <span>Inform</span>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
