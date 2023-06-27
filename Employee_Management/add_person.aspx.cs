@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Employee_Management
 {
-    public partial class home : System.Web.UI.Page
+    public partial class add_person : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

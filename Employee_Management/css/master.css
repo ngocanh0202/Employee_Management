@@ -16,8 +16,10 @@
 .active {
     display: flex;
     margin-top: 7px;
-    border: 3px solid;
-    border-radius: 1%;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-radius: 1% 1% 0% 0%;
     position: relative;
 }
 
@@ -80,6 +82,7 @@
 
     #Button3:hover {
         background: red;
+        color:white;
     }
 
 #Button2 {
@@ -89,6 +92,7 @@
 
     #Button2:hover {
         background: red;
+        color:white;
     }
 
 #Button1 {
@@ -98,6 +102,7 @@
 
     #Button1:hover {
         background: red;
+        color:white;
     }
 
 #ImageButton1 {
