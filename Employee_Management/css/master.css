@@ -16,9 +16,7 @@
 .active {
     display: flex;
     margin-top: 7px;
-    border-top: 3px solid;
-    border-left: 3px solid;
-    border-right: 3px solid;
+    border: 3px solid;
     border-radius: 1% 1% 0% 0%;
     position: relative;
 }
@@ -40,7 +38,6 @@
 }
 
 .active .line {
-    height: 600px;
     width: 3px;
     background: black;
     margin: 0px 5px 0px 0px;

@@ -25,7 +25,7 @@
                     </div>
                     <div class="function">
                         <div class="button">
-                            <asp:Button ID="Button1" runat="server" Text="The total earnings" Width="200px" Height="35px" Font-Bold="true" />
+                            <asp:Button ID="Button1" runat="server" Text="The total earnings" Width="200px" Height="35px" Font-Bold="true" OnClick="Button1_Click" />
                         </div>
                         <div class="button">
                             <asp:Button ID="Button2" runat="server" Text="Total number of vacation days" Width="200px" Height="35px" Font-Bold="true" />
